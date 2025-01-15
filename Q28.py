@@ -1,3 +1,5 @@
-num = input("Enter a number: ")
-sum_of_digits = sum(int(digit) for digit in num)
-print(f"The sum of the digits is: {sum_of_digits}")
+num = (input("Enter a number: "))
+sum=0
+for each in num:
+    sum=sum+int(each)
+print(f"Sum is {sum}")
