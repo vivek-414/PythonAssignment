@@ -6,3 +6,4 @@ transposed = transpose_matrix(matrix)
 print("Transposed matrix:")
 for row in transposed:
     print(row)
+c

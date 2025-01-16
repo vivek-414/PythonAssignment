@@ -1,6 +1,18 @@
-# 46. Frequency of Elements
-numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+
+elements = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+
+
 frequency = {}
-for num in numbers:
-    frequency[num] = frequency.get(num, 0) + 1
-print(f"Frequency of elements: {frequency}")
+
+# Iterate through the list
+for item in elements:
+
+    if item in frequency:
+        # Increment the count if it exists
+        frequency[item] += 1
+    else:
+        # Initialize the count if it does not exist
+        frequency[item] = 1
+
+# Print the frequency dictionary
+print("Frequency of elements:", frequency)
