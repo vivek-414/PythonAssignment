@@ -13,4 +13,3 @@ p1 = Point(2, 3)
 p2 = Point(4, 5)
 result = p1 + p2
 print("Resultant Point:", result)
-.
