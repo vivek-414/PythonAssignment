@@ -1,6 +1,6 @@
 # 49. GCD (Euclidean Algorithm)
 def gcd(a, b):
-    while b:
+    while (b):
         a, b = b, a % b
     return a
 
