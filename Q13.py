@@ -2,8 +2,8 @@
 input_string = input("Enter a string: ")
 
 
-reversed_string = input_string[4::-1]  # Reverse the string
-skipped_string = input_string[0:6:2]     # Skip every second letter
+reversed_string = input_string[::-1]  # Reverse the string
+skipped_string = input_string[::2]     # Skip every second letter
 
 
 print(f"Original string: {input_string}")
